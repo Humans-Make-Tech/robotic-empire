@@ -1,0 +1,3 @@
+RewriteEngine On
+RewriteCond %{HTTP_HOST} !^roboticempire.com [NC]
+RewriteRule ^(.*)$ https://deathwishinc.com/collections/robotic-empire/ [R=301,L]
